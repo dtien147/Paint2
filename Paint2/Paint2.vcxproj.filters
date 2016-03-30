@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ko quan tam">
+      <UniqueIdentifier>{216376b7-6f54-4067-999e-752dd16cda1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ko quan tam\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{cbc62d61-da37-4c73-8891-4a35919e1ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Paint screen">
+      <UniqueIdentifier>{79f4e36d-7845-47cf-b0f6-db8dab7cce5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ribbon">
+      <UniqueIdentifier>{f194dc46-68ce-4af2-a1f5-c5a7864eb075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\buttons.bmp">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\Paint2.rc2">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\Paint2Doc.ico">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\Paint2.ico">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\Untitled-1.png">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+    <None Include="res\Icon4.png">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ellipse.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Ko quan tam</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Ko quan tam</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Ko quan tam</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint2.h">
+      <Filter>Ko quan tam</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint2Doc.h">
+      <Filter>Ko quan tam</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint2View.h">
+      <Filter>Paint screen</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Ribbon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Paint2Doc.cpp">
+      <Filter>Ko quan tam</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint2.cpp">
+      <Filter>Ko quan tam</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Ko quan tam</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint2View.cpp">
+      <Filter>Paint screen</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Paint2.rc">
+      <Filter>Ko quan tam\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
